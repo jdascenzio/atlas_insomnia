@@ -1,0 +1,21 @@
+_id: req_wrk_46fbdff5d76c424bafac833cc0427af9733917ed
+type: Request
+parentId: fld_wrk_46fbdff5d76c424bafac833cc0427af905f20a71
+modified: 1676990130739
+created: 1676990130739
+url: "{{ base_url }}/todos/{{ todoId }}"
+name: Find pet by ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1676990130739
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

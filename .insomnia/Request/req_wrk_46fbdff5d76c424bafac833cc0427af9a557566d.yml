@@ -1,0 +1,29 @@
+_id: req_wrk_46fbdff5d76c424bafac833cc0427af9a557566d
+type: Request
+parentId: fld_wrk_46fbdff5d76c424bafac833cc0427af905f20a71
+modified: 1676990130746
+created: 1676990130746
+url: "{{ base_url }}/"
+name: Add a new todo item
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 10,
+      "item": "Something to do today"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1676990130746
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
